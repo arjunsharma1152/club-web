@@ -124,13 +124,13 @@ const Navigation = styled.header`
       a {
         padding-top: 30px;
         width: 30%;
-        font-size: 40px;
+        font-size: 30px;
       }
     }
     .fa-bars {
       display: inline-block;
       position: absolute;
-      top: 44px;
+      top: 38px;
       right: 15px;
       cursor: pointer;
     }
