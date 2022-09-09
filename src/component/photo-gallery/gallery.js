@@ -8,4 +8,4 @@ const Gallery =()=>(
     </div>
 )
 
-export default Gallery
+export default Gallery;
