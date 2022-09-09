@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
-
+import { ReactComponent as Logo } from "../../assets/main-logo.svg";
 import styled from "styled-components";
 
 const Navigation = styled.header`
@@ -16,11 +16,16 @@ const Navigation = styled.header`
   background: #f8f8f8;
 
   .logo {
+    height: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
 
     a {
-      padding-top: 33px;
+      margin: 10px;
+      font-weight: bold;
+      font-size: 40px;
+      padding-top: 10px;
       display: flex;
       flex-direction: column;
       clear: both;
@@ -92,6 +97,11 @@ const Navigation = styled.header`
   @media only screen and (max-width: 800px) {
     padding: 0px;
     .logo {
+      display: flex;
+      flex-direction: row;
+
+      height: 50%;
+      width: 17%;
       padding-left: 15px;
       padding-top: 0px !important;
     }
@@ -101,21 +111,27 @@ const Navigation = styled.header`
     min-height: 50px;
     display: block;
     position: relative;
+
+    .logo-main {
+      height: 100px;
+      width: 100px;
+    }
     .logo {
-      width: 100%;
-      display: block;
-      padding-top: 20px;
-      margin: 0px;
-      margin-left: -5px;
+      display: flex;
+      flex-direction: row;
+      width: 30%;
+      margin-left: 2px;
       a {
-        padding: 20px 0px;
+        padding-top: 30px;
+        width: 30%;
+        font-size: 40px;
       }
     }
     .fa-bars {
       display: inline-block;
       position: absolute;
-      top: 10px;
-      right: 10px;
+      top: 44px;
+      right: 15px;
       cursor: pointer;
     }
     ul.collapsed {
@@ -176,12 +192,11 @@ class Nav extends Component {
     return (
       <Navigation>
         <div className="logo">
-          <div>hi</div>
-          <div>
-            <Link to="/">
-              <p>PHOTOPEDIA</p>
-            </Link>
-          </div>
+          <Logo className="logo-main" />
+
+          <Link to="/">
+            <p className="title">PHOTOPEDIA</p>
+          </Link>
         </div>
         <nav className="nav">
           <i
