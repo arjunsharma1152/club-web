@@ -1,5 +1,9 @@
 import React from "react";
 
-const Homepage = () => <div className="homepage">hi</div>;
+const HomePage = () => (
+  <div>
+    <h1>Home</h1>
+  </div>
+);
 
-export default Homepage;
+export default HomePage;
