@@ -1,15 +1,22 @@
-import { BrowserRouter } from 'react-router-dom';
-import './App.css';
-import Header from './component/header-component/header';
-import Homepage from './pages/homepage/homepage';
+import { BrowserRouter, Route } from "react-router-dom";
+import "./App.css";
+import Nav from "./component/nav-bar/nav";
+
+import HomePage from "./pages/homepage/homepage";
+import EventPage from "./pages/event/eventpage";
+import ContactPage from "./pages/contact/contactpage";
 
 function App() {
   return (
     <BrowserRouter>
-    <div>
-      <Header />
-     <Homepage/>
-    </div>
+      <div>
+        <Nav />
+        <div className="container">
+          <Route exact={true} path="/" component={HomePage} />
+          <Route exaxt path="/event" component={EventPage} />
+          <Route exact path="/contact" component={ContactPage} />
+        </div>
+      </div>
     </BrowserRouter>
   );
 }
