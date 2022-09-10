@@ -13,6 +13,7 @@ function App() {
       <div>
         <Nav />
         <UploadImg />
+        <h1>hiii</h1>
         <div className="container">
           <Route exact={true} path="/" component={HomePage} />
           <Route exaxt path="/event" component={EventPage} />
