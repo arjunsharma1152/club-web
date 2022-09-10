@@ -1,5 +1,8 @@
 import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
+import { getDatabase } from "firebase/database";
+import firebase from "firebase/compat/app";
+
 const firebaseConfig = {
   apiKey: "AIzaSyDdIHQVgvrR41zt9OWeqJlG22aZGlMYzKk",
   authDomain: "photopedia-f1ed4.firebaseapp.com",
@@ -11,4 +14,9 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
+export const db = getDatabase(app);
+
 export const storage = getStorage(app);
+
+export default firebase;
