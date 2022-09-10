@@ -8,6 +8,8 @@ import {
 } from "firebase/storage";
 import { storage } from "../firebase/firebase.js";
 import { v4 } from "uuid";
+import Photos from "../photos-component/photos";
+import "./upload.scss";
 
 function UploadImg() {
   const [imageUpload, setImageUpload] = useState(null);
@@ -37,15 +39,18 @@ function UploadImg() {
   return (
     <div className="App">
       <input
+        className="button-64"
         type="file"
         onChange={(event) => {
           setImageUpload(event.target.files[0]);
         }}
       />
-      <button onClick={uploadFile}> Upload Image</button>
-      {imageUrls.map((url) => {
-        return <img src={url} />;
-      })}
+      <button className="button-64" onClick={uploadFile}>
+        Upload Image
+      </button>
+      {imageUrls.map((url) => (
+        <Photos imageUrl={url} />
+      ))}
     </div>
   );
 }

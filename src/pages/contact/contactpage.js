@@ -1,9 +1,6 @@
 import React from "react";
+import UploadImg from "../../component/Upload-img/upload";
 
-const ContactPage = () => (
-  <div>
-    <h1>Contact</h1>
-  </div>
-);
+const ContactPage = () => <UploadImg />;
 
 export default ContactPage;
