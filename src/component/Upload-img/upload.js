@@ -16,6 +16,7 @@ function UploadImg() {
   const [imageUrls, setImageUrls] = useState([]);
 
   const imagesListRef = ref(storage, "images/");
+
   const uploadFile = () => {
     if (imageUpload == null) return;
     const imageRef = ref(storage, `images/${imageUpload.name + v4()}`);
@@ -24,9 +25,20 @@ function UploadImg() {
         setImageUrls((prev) => [...prev, url]);
       });
     });
+
+    alert("file uploded");
   };
 
   useEffect(() => {
+    {
+      const actualBtn = document.getElementById("actual-btn");
+
+      const fileChosen = document.getElementById("file-chosen");
+
+      actualBtn.addEventListener("change", function () {
+        fileChosen.textContent = this.files[0].name;
+      });
+    }
     listAll(imagesListRef).then((response) => {
       response.items.forEach((item) => {
         getDownloadURL(item).then((url) => {
@@ -39,15 +51,19 @@ function UploadImg() {
   return (
     <div className="App">
       <input
-        className="button-64"
         type="file"
+        id="actual-btn"
         onChange={(event) => {
           setImageUpload(event.target.files[0]);
         }}
+        hidden
       />
+      <label for="actual-btn">Choose File</label>
+      <span id="file-chosen">No file chosen</span>
       <button className="button-64" onClick={uploadFile}>
         Upload Image
       </button>
+
       {imageUrls.map((url) => (
         <Photos imageUrl={url} />
       ))}
