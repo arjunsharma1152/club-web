@@ -9,6 +9,117 @@ body {
     animation: gradient 15s ease infinite;
 }
 
+.main{
+    display:flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 100px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.content{
+    font-size:30px;
+    padding:30px;
+        margin: 45px;
+        margin-top: 90px;
+        color: white;
+        border: solid 2px white;
+        border-radius: 10px;
+    }
+    
+    .club-leads{
+        margin-top: 50px;
+        text-align: center;
+        
+        h2{
+            font-size: 40px;
+            
+        }
+    }
+
+.card{
+    padding: 1.5em .5em .5em;
+    border-radius: 50px;
+    margin:10px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    width:350px;
+    height: 360px;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.card-img-top{
+    width: 250px;
+    height: 230px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+
+.card-text{
+    font-size:6px;
+}
+
+.members-card{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+@media only screen and (max-width: 600px){
+    .container,.main{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        padding-top: 0px;
+        font-size:50px;
+        padding-left: 15px;
+    }
+    .content{
+        margin: 15px;
+        color: white;
+        font-size:20px;
+        padding-top:20px;
+    }
+    .card{
+    padding: 1.5em .5em .5em;
+    border-radius: 50px;
+    margin:10px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    width:150px;
+    height: 160px;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.card-img-top{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
