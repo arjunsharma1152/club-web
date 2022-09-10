@@ -1,12 +1,17 @@
 .container{
     display: flex;
-    flex-direction:row;
-    background-color: green;
-    flex-basis: 100px;
-	flex-grow: 0;
-	flex-shrink: 0;
+   justify-content: center;
 }
 img{
-    border: solid 8px yellow;
+    border: solid 2px pink;
     border-radius: 10px;
+    height: 400px;
+    width: 400px;
+}
+
+@media only screen and (max-width: 600px){
+    img{
+        height: 350px;
+    width: 350px;
+}
 }
