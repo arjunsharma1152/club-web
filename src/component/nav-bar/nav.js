@@ -29,11 +29,10 @@ const Navigation = styled.header`
       display: flex;
       flex-direction: column;
       clear: both;
-      padding-bottom: 30px;
+
       text-decoration: none;
 
       p {
-        width: 500px;
         display: block;
       }
       em {
@@ -112,17 +111,14 @@ const Navigation = styled.header`
     display: block;
     position: relative;
 
-    .logo-main {
-      height: 100px;
-      width: 100px;
-    }
     .logo {
       display: flex;
       flex-direction: row;
       width: 30%;
       margin-left: 2px;
       a {
-        padding-top: 30px;
+        display: block;
+        padding-top: 17px;
         width: 30%;
         font-size: 30px;
       }
@@ -130,7 +126,7 @@ const Navigation = styled.header`
     .fa-bars {
       display: inline-block;
       position: absolute;
-      top: 38px;
+      top: 24px;
       right: 15px;
       cursor: pointer;
     }
