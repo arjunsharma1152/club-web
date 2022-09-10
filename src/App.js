@@ -1,6 +1,7 @@
 import { BrowserRouter, Route } from "react-router-dom";
 import "./App.css";
 import Nav from "./component/nav-bar/nav";
+import UploadImg from "../src/component/Upload-img/upload.js";
 
 import HomePage from "./pages/homepage/homepage";
 import EventPage from "./pages/event/eventpage";
@@ -11,6 +12,7 @@ function App() {
     <BrowserRouter>
       <div>
         <Nav />
+        <UploadImg />
         <div className="container">
           <Route exact={true} path="/" component={HomePage} />
           <Route exaxt path="/event" component={EventPage} />
