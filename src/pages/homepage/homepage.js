@@ -56,9 +56,9 @@ const HomePage = () => (
 
     <div className="to-be-member">
       <h2>Become a member of the club.</h2>
-      <button className="button" onClick="">
+     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxmCB39A7xFK-isDXkkhbxSbWGQh1SjDLXrC9N9BYqw-nHDg/viewform?usp=sf_link" target="_blank"> <button className="button" >
         <span>Register Now</span>
-      </button>
+      </button></a>
     </div>
     <div className="uni-name">
       <a
