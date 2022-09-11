@@ -3,7 +3,7 @@ import "./photos.scss";
 
 const Photos = ({ imageUrl }) => (
   <div className="container1">
-    <img src={imageUrl} />
+    <img className="img" src={imageUrl} />
   </div>
 );
 

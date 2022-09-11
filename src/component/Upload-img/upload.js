@@ -51,7 +51,7 @@ function UploadImg() {
   return (
     <div className="App">
       <div className="gallery-head">
-        Best photo's will be featured on the official instagram page of CSIT
+        Best photos will be featured on the official instagram page of CSIT
         Photopedia club
       </div>
       <div className="btn">

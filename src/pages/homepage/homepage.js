@@ -11,6 +11,7 @@ const HomePage = () => (
         campus community.
       </p>
     </div>
+    <div className="hr-line"></div>
     <div className="club-leads">
       <h2>Club Leads</h2>
     </div>
@@ -51,6 +52,23 @@ const HomePage = () => (
           <a href="#" class="btn btn-primary"></a>
         </div>
       </div>
+    </div>
+
+    <div className="to-be-member">
+      <h2>Become a member of the club.</h2>
+      <button className="button" onClick="">
+        <span>Register Now</span>
+      </button>
+    </div>
+    <div className="uni-name">
+      <a
+        href="https://www.mjpru.ac.in/"
+        target="_blank"
+        className="uni-ref"
+        rel="noreferrer"
+      >
+        M.J.P.R.U. Bareilly.
+      </a>
     </div>
   </div>
 );
