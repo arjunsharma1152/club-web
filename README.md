@@ -2,28 +2,30 @@
 <h1 align="center">
 	<a href="https://youtemy.tech"><img height=100 src="src/component/logo.png" alt="YouTemy"/></a>
 </h1>
+</p>
 
+<p align="center">
 <a href="https://github.com/arjunsharma1152/club-web/graphs/contributors">
         	<img src="https://img.shields.io/github/contributors/arjunsharma1152/club-web?color=red" alt="Contributors">
 	</a>
 	</p>
-# Tech Stack
+> 🚀 Tech Stack
 
-Photopedia is a web app built with the following:
+Photopedia is built with the following technologies:
 
-- [Javascript](https://www.javascript.com)
 - [ReactJS](https://reactjs.org/)
+- [Javascript](https://www.javascript.com)
 - [Firebase](https://firebase.google.com)
 
-> # 📷 Snapshots of the Hosted Projects
+>  📷 Snapshots of the Hosted Projects
 
-> ### ![1](images/page1.PNG)
+>  ![1](images/page1.PNG)
 
-> ### ![2](images/page2.PNG)
+>  ![2](images/page2.PNG)
 
-> ### ![3](images/page3.PNG)
+>  ![3](images/page3.PNG)
 
-> ### ![4](images/page4.PNG)
+>  ![4](images/page4.PNG)
 
 ## Starting the Dev Server
 
