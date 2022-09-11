@@ -10,13 +10,14 @@
 	</a>
 	</p>
 	
-# 🚀 Tech Stack
+# 🚀 Technologies and Frameworks
 
 Photopedia is built with the following technologies:
 
 - [ReactJS](https://reactjs.org/)
 - [Javascript](https://www.javascript.com)
 - [Firebase](https://firebase.google.com)
+- [Scss](https://sass-lang.com)
 
 #  📷 Snapshots of the Hosted Projects
 
