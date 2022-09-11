@@ -1,5 +1,5 @@
 <h1 align="center">
-	<a href="https://youtemy.tech"><img height=100 src="src/components/logo.png" alt="YouTemy"/></a>
+	<a href="https://youtemy.tech"><img height=100 src="src/component/logo.png" alt="YouTemy"/></a>
 </h1>
 # Getting Started with Create React App
 
