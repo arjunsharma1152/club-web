@@ -50,19 +50,25 @@ function UploadImg() {
 
   return (
     <div className="App">
-      <input
-        type="file"
-        id="actual-btn"
-        onChange={(event) => {
-          setImageUpload(event.target.files[0]);
-        }}
-        hidden
-      />
-      <label for="actual-btn">Choose File</label>
-      <span id="file-chosen">No file chosen</span>
-      <button className="button-64" onClick={uploadFile}>
-        Upload Image
-      </button>
+      <div className="gallery-head">
+        Best photo's will be featured on the official instagram page of CSIT
+        Photopedia club
+      </div>
+      <div className="btn">
+        <input
+          type="file"
+          id="actual-btn"
+          onChange={(event) => {
+            setImageUpload(event.target.files[0]);
+          }}
+          hidden
+        />
+        <label for="actual-btn">Choose File</label>
+        <span id="file-chosen">No file chosen</span>
+        <button className="button-64" onClick={uploadFile}>
+          Upload Image
+        </button>
+      </div>
 
       {imageUrls.map((url) => (
         <Photos imageUrl={url} />
