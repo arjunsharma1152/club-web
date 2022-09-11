@@ -33,7 +33,7 @@ export default function EventPage() {
       <ul className="events-list">
         {events.map((event) => (
           <li>
-            <a href="#" contenteditable>
+            <a className="event-item" href="#" contenteditable>
               <h2>{event.data.name}</h2>
               <p>{event.data.date}</p>
               <p>{event.data.string}</p>
