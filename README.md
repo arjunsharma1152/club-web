@@ -19,11 +19,11 @@ Photopedia is a web app built with the following:
 
 > ### ![1](images/page1.PNG)
 
-> ### ![2](images/page2.png)
+> ### ![2](images/page2.PNG)
 
-> ### ![3](images/page3.png)
+> ### ![3](images/page3.PNG)
 
-> ### ![4](images/page4.png)
+> ### ![4](images/page4.PNG)
 
 ## Starting the Dev Server
 
