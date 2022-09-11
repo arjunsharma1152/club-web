@@ -23,11 +23,7 @@ Photopedia is built with the following technologies:
 
 >  ![](images/page1.PNG)
 
->  ![](images/page2.PNG)
-
 >  ![](images/page3.PNG)
-
->  ![](images/page4.PNG)
 
 ## Starting the Dev Server
 
