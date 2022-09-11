@@ -120,6 +120,81 @@ body {
 }
 }
 
+.to-be-member{
+    text-align:center;
+    margin-top: 40px;
+    padding: 20px;
+    
+    h2{
+        margin-bottom: 20px;
+    }
+    
+    button{
+        padding: 20px;
+        font-weight: bold;
+        border-radius:  20px;
+        font-size:15px;
+    }
+    
+}
+button:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color: transparent;
+            cursor: pointer;
+            transition-duration: 0.4s;
+        }
+        .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.uni-name{
+    text-align:center;
+    margin:1px;   
+    margin-top: 30px;
+    color: white;
+    
+    .uni-ref{
+        color: white;
+        font-size:15px;
+        padding: 0px;
+    }
+}
+
+.hr-line{
+    background-color:black;
+    width: 300px;
+    height: 10px;
+    margin: 40px;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px){
+    .hr-line{
+        display: none;
+    }
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;

@@ -3,7 +3,7 @@
    justify-content: center;
    padding:20px;
 }
-img{
+.img{
     border: solid 2px pink;
     border-radius: 10px;
     height: 400px;
@@ -11,8 +11,10 @@ img{
 }
 
 @media only screen and (max-width: 600px){
-    img{
+    .img{
         height: 350px;
     width: 350px;
+    border:solid white;
+        border-width: 10px 10px 50px 10px;
 }
 }
