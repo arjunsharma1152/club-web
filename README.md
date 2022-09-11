@@ -1,73 +1,55 @@
+<p align="center">
 <h1 align="center">
 	<a href="https://youtemy.tech"><img height=100 src="src/component/logo.png" alt="YouTemy"/></a>
 </h1>
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://github.com/arjunsharma1152/club-web/graphs/contributors">
+        	<img src="https://img.shields.io/github/contributors/arjunsharma1152/club-web?color=red" alt="Contributors">
+	</a>
+	</p>
+# Tech Stack
 
-## Available Scripts
+Photopedia is a web app built with the following:
 
-In the project directory, you can run:
+- [Javascript](https://www.javascript.com)
+- [ReactJS](https://reactjs.org/)
+- [Firebase](https://firebase.google.com)
 
-### `npm start`
+> # 📷 Snapshots of the Hosted Projects
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> ### (images/Website1.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> ### (images/Website2.png)
 
-### `npm test`
+> ### (images/Website3.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> ### (images/Website4.png)
 
-### `npm run build`
+> ### (images/Website5.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Starting the Dev Server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Clone the repository to your local system. `https://github.com/arjunsharma1152/club-web`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Firebase API Setup:
 
-### `npm run eject`
+  1.  Go to [Firebase Console](https://console.firebase.google.com) and follow the steps to create a new Firebase project.
+  2.  Select `</>` and you will recieve a firebasConfig object with the first paramter as API key. Copy it, which will look something like: 
+  	
+	```js
+              cosnt firebaseConfig = {
+              apiKey: "process.env.REACT_APP_FIREBASE",
+              authDomain: "AUTH_DOMAIN",
+              projectId: "PROJECT_ID",
+              storageBucket: "STORAGE_BUCKET",
+              messagingSenderId: "*************",
+              appId: "******************************",
+              measurementId: "*************"
+            };
+      ```
+   3.  Paste and save it. 
+   
+- In the root folder and enter the following commands in the CLI
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+          npm i or yarn
+          npm start or yarn start
