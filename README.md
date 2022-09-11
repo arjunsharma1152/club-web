@@ -1,3 +1,6 @@
+<h1 align="center">
+	<a href="https://youtemy.tech"><img height=100 src="src/components/logo.png" alt="YouTemy"/></a>
+</h1>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
