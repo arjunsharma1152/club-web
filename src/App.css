@@ -4,6 +4,7 @@
 html {
   height: 100%;
   width: 100%;
+  padding-bottom: 0;
 }
 
 img,
@@ -27,11 +28,13 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
   background: #fefefe;
+  padding-bottom: 0;
 }
 
 .container {
   width: 100%;
   margin: 60px auto;
+  padding-bottom: 0;
 }
 h1 {
   font-size: 3em;
