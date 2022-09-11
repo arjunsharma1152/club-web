@@ -9,7 +9,7 @@
         	<img src="https://img.shields.io/github/contributors/arjunsharma1152/club-web?color=red" alt="Contributors">
 	</a>
 	</p>
-> 🚀 Tech Stack
+## 🚀 Tech Stack
 
 Photopedia is built with the following technologies:
 
@@ -17,7 +17,7 @@ Photopedia is built with the following technologies:
 - [Javascript](https://www.javascript.com)
 - [Firebase](https://firebase.google.com)
 
->  📷 Snapshots of the Hosted Projects
+##  📷 Snapshots of the Hosted Projects
 
 >  ![1](images/page1.PNG)
 
