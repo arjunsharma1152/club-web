@@ -2,7 +2,14 @@
 <h1 align="center">
 	<a href="https://youtemy.tech"><img height=100 src="src/component/logo.png" alt="YouTemy"/></a>
 </h1>
-Photography is the beauty of life captured.” The Photography Club is a crew of shutterbugs whose mission is to preach, practise and master the art of photography for the shared benefit of the self as well as the campus community
+What is Photopedia?
+Photopedia is a photography  Club .This club is a crew of shutterbugs whose mission is to preach, practise and master the art of photography for the shared benefit of the self as well as the campus community.
+
+Features of Photopedia Web-app:
+# Dynamically add events to app
+# Upload photos directly to photo gallery of photopedia web-app
+
+
 </p>
 
 <p align="center">
