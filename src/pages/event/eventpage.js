@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../component/firebase/firebase";
-
+import "../event/eventpage.scss";
 export default function EventPage() {
   const [events, setEvents] = useState([]);
 
@@ -28,12 +28,16 @@ export default function EventPage() {
   }
 
   return (
-    <div>
-      <h3>Events</h3>
+    <div className="events-map">
+      <h1>Events</h1>
       <ul className="events-list">
         {events.map((event) => (
-          <li className="event-item" key={event.id}>
-            <p>{event.data.name}</p> <p>{event.data.string}</p>
+          <li>
+            <a href="#" contenteditable>
+              <h2>{event.data.name}</h2>
+              <p>{event.data.date}</p>
+              <p>{event.data.string}</p>
+            </a>
           </li>
         ))}
       </ul>
