@@ -21,13 +21,13 @@ Photopedia is built with the following technologies:
 
 #  📷 Snapshots of the Hosted Projects
 
->  ![1](images/page1.PNG)
+>  ![](images/page1.PNG)
 
->  ![2](images/page2.PNG)
+>  ![](images/page2.PNG)
 
->  ![3](images/page3.PNG)
+>  ![](images/page3.PNG)
 
->  ![4](images/page4.PNG)
+>  ![](images/page4.PNG)
 
 ## Starting the Dev Server
 
