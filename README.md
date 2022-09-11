@@ -2,6 +2,7 @@
 <h1 align="center">
 	<a href="https://youtemy.tech"><img height=100 src="src/component/logo.png" alt="YouTemy"/></a>
 </h1>
+Photography is the beauty of life captured.” The Photography Club is a crew of shutterbugs whose mission is to preach, practise and master the art of photography for the shared benefit of the self as well as the campus community
 </p>
 
 <p align="center">
