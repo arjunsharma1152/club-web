@@ -1,0 +1,66 @@
+.contact{
+    padding-top: 30px;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.dark-name{
+    font-weight: 900;
+}
+
+.dev-name{
+        border:solid 3px white;
+        margin: 50px;
+        margin-left:350px;
+        margin-right:350px;        
+        border-radius: 5px;
+        font-weight: 5px;
+    font-size: 40px;
+    padding: 10px;
+    
+    a:link ,a:visited, a:hover, a:active{
+  color: white;
+}
+}
+    
+.contact-content{
+    margin-top: 30px;
+        line-height: 40px;
+        }
+
+@media only screen and (max-width: 600px){
+    
+    .contact{
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .cheading{
+        font-size:50px;
+    }
+    
+    .contact-content{
+    font-size:5px;
+    p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+.developers
+{
+    margin-top: 100px;
+    
+    .dev-name{
+        border:solid 3px white;
+        margin:30px;
+        padding: 30px;
+        padding-left:15px;
+         padding-right:15px;
+        border-radius: 5px;
+        font-weight: 5px;
+    font-size: 20px;
+    }
+}
+}
