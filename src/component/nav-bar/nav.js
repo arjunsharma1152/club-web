@@ -12,7 +12,7 @@ const Navigation = styled.header`
   align-items: center;
   padding: 0px 100px 0;
   height: 140px;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   background: #f8f8f8;
 
   .logo {
