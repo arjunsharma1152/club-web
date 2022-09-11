@@ -5,9 +5,9 @@
 What is Photopedia?
 Photopedia is a photography  Club .This club is a crew of shutterbugs whose mission is to preach, practise and master the art of photography for the shared benefit of the self as well as the campus community.
 
-Features of Photopedia Web-app:
-# Dynamically add events to app
-# Upload photos directly to photo gallery of photopedia web-app
+ # Features of Photopedia Web-app:
+ * Dynamically add events to app
+ * Upload photos directly to photo gallery of photopedia web-app
 
 
 </p>
