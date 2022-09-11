@@ -9,6 +9,7 @@
         	<img src="https://img.shields.io/github/contributors/arjunsharma1152/club-web?color=red" alt="Contributors">
 	</a>
 	</p>
+	
 # 🚀 Tech Stack
 
 Photopedia is built with the following technologies:
