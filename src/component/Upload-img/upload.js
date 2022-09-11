@@ -51,8 +51,16 @@ function UploadImg() {
   return (
     <div className="App">
       <div className="gallery-head">
-        Best photos will be featured on the official instagram page of CSIT
-        Photopedia club
+        Best photos will be featured on the official instagram page of CSIT{" "}
+        <span> </span>
+        <a
+          href="https://instagram.com/photopedia_csit_mjpru_?igshid=YmMyMTA2M2Y="
+          className="insta-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <u>Photopedia Club</u>
+        </a>
       </div>
       <div className="btn">
         <input
