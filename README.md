@@ -1,6 +1,6 @@
 <p align="center">
 <h1 align="center">
-	<a href="https://youtemy.tech"><img height=100 src="src/component/logo.png" alt="YouTemy"/></a>
+	<a href="https://photopedia.vercel.app"><img height=100 src="src/component/logo.png" alt="Photopedia"/></a>
 </h1>
 What is Photopedia?
 Photopedia is a photography  Club .This club is a crew of shutterbugs whose mission is to preach, practise and master the art of photography for the shared benefit of the self as well as the campus community.
